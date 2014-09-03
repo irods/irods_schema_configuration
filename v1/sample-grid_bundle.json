@@ -1,5 +1,5 @@
 {
-    "schema_version": "http://irods.github.io/schemas/v1/grid_bundle.json",
+    "schema_version": "http://schemas.irods.org/v1/grid_bundle.json",
     "grids": [
         {
             "icat_server": {
