@@ -22,14 +22,19 @@
                 "$ref": "filename"
             }
         },
-        "run_server_as_root": {"type": "string"},
+        "kerberos_name": {"type": "string"},
+        "pam_password_length": {"type": "integer"},
+        "pam_no_extend": {"enum": ["true","false"]},
+        "pam_password_min_time": {"type": "integer"},
+        "pam_password_max_time": {"type": "integer"},
+        "run_server_as_root": {"enum": ["true","false"]},
         "default_dir_mode": {"type": "string"},
         "default_file_mode": {"type": "string"},
         "default_hash_scheme": {"type": "string"},
         "zone_id": {"type": "string"},
-        "negotiation_key": {"type": "string"},
+        "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
         "match_hash_policy": {"type": "string"},
-        "catalog_database_type": {"type": "string"},
+        "catalog_database_type": {"enum": ["postgres","mysql","oracle"]},
         "federation": {
             "type": "array",
             "items": {
@@ -37,8 +42,9 @@
                 "properties": {
                     "zone_name": {"type": "string"},
                     "zone_id": {"type": "string"},
-                    "negotiation_key": {"type": "string"}
-                }
+                    "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32}
+                },
+                "required": ["zone_name","zone_id","negotiation_key"]
             }
         }
     },

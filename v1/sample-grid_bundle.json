@@ -69,12 +69,12 @@
                         {
                             "zone_name": "",
                             "zone_id": "",
-                            "negotiation_key": ""
+                            "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                         },
                         {
                             "zone_name": "",
                             "zone_id": "",
-                            "negotiation_key": ""
+                            "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                         }
                     ]
                 },
@@ -151,12 +151,12 @@
                             {
                                 "zone_name": "",
                                 "zone_id": "",
-                                "negotiation_key": ""
+                                "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                             },
                             {
                                 "zone_name": "",
                                 "zone_id": "",
-                                "negotiation_key": ""
+                                "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                             }
                         ]
                     },
@@ -256,12 +256,12 @@
                         {
                             "zone_name": "",
                             "zone_id": "",
-                            "negotiation_key": ""
+                            "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                         },
                         {
                             "zone_name": "",
                             "zone_id": "",
-                            "negotiation_key": ""
+                            "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                         }
                     ]
                 },
@@ -338,12 +338,12 @@
                             {
                                 "zone_name": "",
                                 "zone_id": "",
-                                "negotiation_key": ""
+                                "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                             },
                             {
                                 "zone_name": "",
                                 "zone_id": "",
-                                "negotiation_key": ""
+                                "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                             }
                         ]
                     },
