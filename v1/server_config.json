@@ -34,7 +34,6 @@
         "zone_id": {"type": "string"},
         "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
         "match_hash_policy": {"type": "string"},
-        "catalog_database_type": {"enum": ["postgres","mysql","oracle"]},
         "federation": {
             "type": "array",
             "items": {

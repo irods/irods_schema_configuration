@@ -9,9 +9,9 @@
         "vault_path": {"type": "string"},
         "context_string": {"type": "string"},
         "parent_resource": {"type": "string"},
-        "parent_resource_context_string": {"type": "string"},
         "free_space": {"type": "string"},
-        "status": {"type": "string", "enum": ["up","down"]}
+        "status": {"type": "string", "enum": ["up","down"]},
+        "object_count": {"type": "integer"}
     },
-    "required": ["name","type","host","vault_path","context_string","parent_resource","parent_resource_context_string","free_space","status"]
+    "required": ["name","type","host","vault_path","context_string","parent_resource","free_space","status"]
 }
