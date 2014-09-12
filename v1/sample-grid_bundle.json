@@ -79,6 +79,12 @@
                         }
                     ]
                 },
+                "hosts_config": {
+                    "host_entries": []
+                },
+                "host_access_control_config": {
+                    "access_entries": []
+                },
                 "service_account_environment": {
                     "irods_host": "",
                     "irods_port": 1247,
@@ -160,6 +166,12 @@
                                 "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                             }
                         ]
+                    },
+                    "hosts_config": {
+                        "host_entries": []
+                    },
+                    "host_access_control_config": {
+                        "access_entries": []
                     },
                     "plugins": [
                         {
@@ -267,6 +279,28 @@
                         }
                     ]
                 },
+                "hosts_config": {
+                    "host_entries": [
+                        {
+                            "address_type": "remote",
+                            "addresses": [
+                                {
+                                    "address": "overthere.example.org"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "host_access_control_config": {
+                    "access_entries": [
+                        {
+                            "user": "all",
+                            "group": "all",
+                            "address": "127.0.0.0",
+                            "mask": "255.255.255.0"
+                        }
+                    ]
+                },
                 "service_account_environment": {
                     "irods_host": "",
                     "irods_port": 1247,
@@ -348,6 +382,21 @@
                                 "negotiation_key": "abcdefghijklmnopqrstuvwxyzabcdef"
                             }
                         ]
+                    },
+                    "hosts_config": {
+                        "host_entries": [
+                            {
+                                "address_type": "local",
+                                "addresses": [
+                                    {
+                                        "address": "somewhere.example.org"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "host_access_control_config": {
+                        "access_entries": []
                     },
                     "plugins": [
                         {

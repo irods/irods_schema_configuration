@@ -17,6 +17,12 @@
         "server_config": {
             "$ref": "server_config"
         },
+        "hosts_config": {
+            "$ref": "hosts_config"
+        },
+        "host_access_control_config": {
+            "$ref": "host_access_control_config"
+        },
         "service_account_environment": {
             "$ref": "service_account_environment"
         },
@@ -27,5 +33,5 @@
             }
         }
     },
-    "required": ["commit_id","os","resources","configuration_directory","server_config","service_account_environment","plugins"]
+    "required": ["commit_id","os","resources","configuration_directory","server_config","hosts_config","host_access_control_config","service_account_environment","plugins"]
 }
