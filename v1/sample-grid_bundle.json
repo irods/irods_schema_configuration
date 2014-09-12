@@ -65,7 +65,6 @@
                     "zone_id": "TEMP_LOCAL_ZONE_SID",
                     "negotiation_key": "temp_32_byte_key_for_agent__conn",
                     "match_hash_policy": "strict",
-                    "catalog_database_type": "postgres",
                     "federation": [
                         {
                             "zone_name": "",
@@ -153,7 +152,6 @@
                         "zone_id": "TEMP_LOCAL_ZONE_SID",
                         "negotiation_key": "temp_32_byte_key_for_agent__conn",
                         "match_hash_policy": "strict",
-                        "catalog_database_type": "postgres",
                         "federation": [
                             {
                                 "zone_name": "",
@@ -265,7 +263,6 @@
                     "zone_id": "TEMP_LOCAL_ZONE_SID",
                     "negotiation_key": "temp_32_byte_key_for_agent__conn",
                     "match_hash_policy": "strict",
-                    "catalog_database_type": "postgres",
                     "federation": [
                         {
                             "zone_name": "",
@@ -369,7 +366,6 @@
                         "zone_id": "TEMP_LOCAL_ZONE_SID",
                         "negotiation_key": "temp_32_byte_key_for_agent__conn",
                         "match_hash_policy": "strict",
-                        "catalog_database_type": "postgres",
                         "federation": [
                             {
                                 "zone_name": "",
