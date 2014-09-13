@@ -5,7 +5,6 @@
             "icat_server": {
                 "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
                 "os": "centos6",
-                "database_type": "postgres",
                 "database_config": {
                     "catalog_database_type": "postgres",
                     "db_username": "irods",

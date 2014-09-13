@@ -8,10 +8,9 @@
         }
     ],
     "properties": {
-        "database_type": {"enum": ["postgres","mysql","oracle"]},
         "database_config": {
             "$ref": "database_config"
         }
     },
-    "required": ["database_type","database_config"]
+    "required": ["database_config"]
 }
