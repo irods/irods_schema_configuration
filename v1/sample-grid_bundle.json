@@ -1,6 +1,6 @@
 {
     "schema_version": "http://schemas.irods.org/v1/grid_bundle.json",
-    "grids": [
+    "zones": [
         {
             "icat_server": {
                 "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",

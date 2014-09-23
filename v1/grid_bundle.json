@@ -5,7 +5,7 @@
     "description": "Schema for an iRODS grid bundle (possibly featuring Federation)",
     "properties": {
         "schema_version": {"type": "string"},
-        "grids": {
+        "zones": {
             "type": "array",
             "items": {
                 "type": "object",
@@ -24,5 +24,5 @@
             }
         }
     },
-    "required": ["schema_version", "grids"]
+    "required": ["schema_version", "zones"]
 }
