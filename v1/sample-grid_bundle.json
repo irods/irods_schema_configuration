@@ -6,6 +6,7 @@
                 "os": "centos6",
                 "version": {
                     "irods_version": "4.0.3",
+                    "catalog_schema_version": 3,
                     "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
                     "installation_time": "2014-10-08T16:14:44Z",
                     "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
@@ -113,6 +114,7 @@
                     "os": "centos6",
                     "version": {
                         "irods_version": "4.0.3",
+                        "catalog_schema_version": 3,
                         "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
                         "installation_time": "2014-10-08T16:14:44Z",
                         "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
@@ -120,6 +122,7 @@
                         "compile_time": "2014-10-08T16:14:44Z",
                         "previous_version": {
                             "irods_version": "4.0.0",
+                            "catalog_schema_version": 1,
                             "commit_id": "aa36c42ac8addd353cce2ba0e268b86443b0ad37",
                             "installation_time": "2014-10-08T16:14:44Z",
                             "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
@@ -127,6 +130,7 @@
                             "compile_time": "2014-10-08T16:14:44Z",
                             "previous_version": {
                                 "irods_version": "3.0.1",
+                                "catalog_schema_version": 1,
                                 "commit_id": "bb36c42ac8addd353cce2ba0e268b86443b0ad37",
                                 "installation_time": "2014-10-08T16:14:44Z",
                                 "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
@@ -233,6 +237,7 @@
                 "os": "ubuntu",
                 "version": {
                     "irods_version": "4.0.3",
+                    "catalog_schema_version": 3,
                     "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
                     "installation_time": "2014-10-08T16:14:44Z",
                     "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
@@ -356,6 +361,7 @@
                     "os": "centos6",
                     "version": {
                         "irods_version": "4.0.3",
+                        "catalog_schema_version": 3,
                         "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
                         "installation_time": "2014-10-08T16:14:44Z",
                         "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
