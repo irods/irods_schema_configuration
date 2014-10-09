@@ -1,0 +1,17 @@
+{
+    "id": "version",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "irods_version": {"type": "string"},
+        "commit_id": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "installation_time": {"type": "string", "format": "date-time"},
+        "build_system_information": {"type": "string"},
+        "compiler_version": {"type": "string"},
+        "compile_time": {"type": "string", "format": "date-time"},
+        "previous_version": {
+            "$ref": "version"
+        }
+    },
+    "required": ["irods_version","commit_id","installation_time","build_system_information","compiler_version","compile_time"]
+}

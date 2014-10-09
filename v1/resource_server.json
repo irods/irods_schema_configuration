@@ -3,8 +3,10 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-        "commit_id": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
         "os": {"type": "string"},
+        "version": {
+            "$ref": "version"
+        },
         "resources": {
             "type": "array",
             "items": {
@@ -33,5 +35,5 @@
             }
         }
     },
-    "required": ["commit_id","os","resources","configuration_directory","server_config","hosts_config","host_access_control_config","service_account_environment","plugins"]
+    "required": ["os","version","resources","configuration_directory","server_config","hosts_config","host_access_control_config","service_account_environment","plugins"]
 }

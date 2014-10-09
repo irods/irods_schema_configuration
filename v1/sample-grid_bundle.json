@@ -3,8 +3,15 @@
     "zones": [
         {
             "icat_server": {
-                "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
                 "os": "centos6",
+                "version": {
+                    "irods_version": "4.0.3",
+                    "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
+                    "installation_time": "2014-10-08T16:14:44Z",
+                    "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
+                    "compiler_version": "g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3",
+                    "compile_time": "2014-10-08T16:14:44Z"
+                },
                 "database_config": {
                     "catalog_database_type": "postgres",
                     "db_username": "irods",
@@ -103,8 +110,31 @@
             }, 
             "resource_servers": [
                 {
-                    "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0aa37",
                     "os": "centos6",
+                    "version": {
+                        "irods_version": "4.0.3",
+                        "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
+                        "installation_time": "2014-10-08T16:14:44Z",
+                        "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
+                        "compiler_version": "g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3",
+                        "compile_time": "2014-10-08T16:14:44Z",
+                        "previous_version": {
+                            "irods_version": "4.0.0",
+                            "commit_id": "aa36c42ac8addd353cce2ba0e268b86443b0ad37",
+                            "installation_time": "2014-10-08T16:14:44Z",
+                            "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
+                            "compiler_version": "g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3",
+                            "compile_time": "2014-10-08T16:14:44Z",
+                            "previous_version": {
+                                "irods_version": "3.0.1",
+                                "commit_id": "bb36c42ac8addd353cce2ba0e268b86443b0ad37",
+                                "installation_time": "2014-10-08T16:14:44Z",
+                                "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
+                                "compiler_version": "g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3",
+                                "compile_time": "2014-10-08T16:14:44Z"
+                            }
+                        }
+                    },
                     "resources": [
                         {
                             "name": "",
@@ -200,11 +230,17 @@
         }, 
         {
             "icat_server": {
-                "commit_id": "d336c42ac8a13d353cce2ba0e268b86443b0a7b7",
                 "os": "ubuntu",
-                "database_type": "oracle",
+                "version": {
+                    "irods_version": "4.0.3",
+                    "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
+                    "installation_time": "2014-10-08T16:14:44Z",
+                    "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
+                    "compiler_version": "g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3",
+                    "compile_time": "2014-10-08T16:14:44Z"
+                },
                 "database_config": {
-                    "catalog_database_type": "postgres",
+                    "catalog_database_type": "oracle",
                     "db_username": "irods",
                     "db_password": "ncy"
                 },
@@ -317,8 +353,15 @@
             },
             "resource_servers": [
                 {
-                    "commit_id": "d336c42ac8a13d353cce2ba0e268b86443b0aa37",
                     "os": "centos6",
+                    "version": {
+                        "irods_version": "4.0.3",
+                        "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
+                        "installation_time": "2014-10-08T16:14:44Z",
+                        "build_system_information": "Linux example.org 3.2.0-67-generic #101-Ubuntu SMP Tue Jul 15 17:46:11 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux",
+                        "compiler_version": "g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3",
+                        "compile_time": "2014-10-08T16:14:44Z"
+                    },
                     "resources": [
                         {
                             "name": "",
