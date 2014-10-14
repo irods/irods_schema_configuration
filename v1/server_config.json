@@ -34,6 +34,10 @@
         "zone_id": {"type": "string"},
         "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
         "match_hash_policy": {"type": "string"},
+        "environment_variables": {
+            "type": "object",
+            "additionalProperties": {"type": "string"}
+        },
         "federation": {
             "type": "array",
             "items": {
@@ -47,5 +51,5 @@
             }
         }
     },
-    "required": ["icat_host","re_rulebase_set","re_function_name_mapping_set","re_data_variable_mapping_set","run_server_as_root","default_dir_mode","default_file_mode","default_hash_scheme","zone_id","negotiation_key","match_hash_policy","federation"]
+    "required": ["icat_host","re_rulebase_set","re_function_name_mapping_set","re_data_variable_mapping_set","run_server_as_root","default_dir_mode","default_file_mode","default_hash_scheme","zone_id","negotiation_key","match_hash_policy","environment_variables","federation"]
 }
