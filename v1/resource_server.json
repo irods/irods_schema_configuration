@@ -3,7 +3,15 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-        "os": {"type": "string"},
+        "host_system_information": {
+            "type": "object",
+            "properties": {
+                "uname": {"type": "string"},
+                "os_distribution_name": {"type": "string"},
+                "os_distribution_version": {"type": "string"}
+            },
+            "required": ["uname","os_distribution_name","os_distribution_version"]
+        },
         "version": {
             "$ref": "version"
         },
@@ -35,5 +43,5 @@
             }
         }
     },
-    "required": ["os","version","resources","configuration_directory","server_config","hosts_config","host_access_control_config","service_account_environment","plugins"]
+    "required": ["host_system_information","version","resources","configuration_directory","server_config","hosts_config","host_access_control_config","service_account_environment","plugins"]
 }
