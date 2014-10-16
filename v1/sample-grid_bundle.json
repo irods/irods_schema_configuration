@@ -3,7 +3,11 @@
     "zones": [
         {
             "icat_server": {
-                "os": "centos6",
+                "host_system_information": {
+                    "uname": "",
+                    "os_distribution_name": "",
+                    "os_distribution_version": ""
+                },
                 "version": {
                     "irods_version": "4.0.3",
                     "catalog_schema_version": 3,
@@ -112,7 +116,11 @@
             }, 
             "resource_servers": [
                 {
-                    "os": "centos6",
+                    "host_system_information": {
+                        "uname": "",
+                        "os_distribution_name": "",
+                        "os_distribution_version": ""
+                    },
                     "version": {
                         "irods_version": "4.0.3",
                         "catalog_schema_version": 3,
@@ -236,7 +244,11 @@
         }, 
         {
             "icat_server": {
-                "os": "ubuntu",
+                "host_system_information": {
+                    "uname": "",
+                    "os_distribution_name": "",
+                    "os_distribution_version": ""
+                },
                 "version": {
                     "irods_version": "4.0.3",
                     "catalog_schema_version": 3,
@@ -363,7 +375,11 @@
             },
             "resource_servers": [
                 {
-                    "os": "centos6",
+                    "host_system_information": {
+                        "uname": "",
+                        "os_distribution_name": "",
+                        "os_distribution_version": ""
+                    },
                     "version": {
                         "irods_version": "4.0.3",
                         "catalog_schema_version": 3,
