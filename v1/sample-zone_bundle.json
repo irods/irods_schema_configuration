@@ -1,5 +1,5 @@
 {
-    "schema_version": "http://schemas.irods.org/v1/grid_bundle.json",
+    "schema_version": "http://schemas.irods.org/v1/zone_bundle.json",
     "zones": [
         {
             "icat_server": {
