@@ -53,6 +53,10 @@
                     }
                 ],
                 "server_config": {
+                    "zone_name": "tempZone",
+                    "zone_user": "rods",
+                    "zone_port": 1247,
+                    "zone_auth_scheme": "native",
                     "icat_host": "localhost",
                     "re_rulebase_set": [
                         {
@@ -171,6 +175,10 @@
                         ]
                     },
                     "server_config": {
+                        "zone_name": "tempZone",
+                        "zone_user": "rods",
+                        "zone_port": 1247,
+                        "zone_auth_scheme": "native",
                         "icat_host": "localhost",
                         "re_rulebase_set": [
                             {
@@ -294,6 +302,10 @@
                     }
                 ],
                 "server_config": {
+                    "zone_name": "tempZone2",
+                    "zone_user": "rods",
+                    "zone_port": 1247,
+                    "zone_auth_scheme": "native",
                     "icat_host": "localhost",
                     "re_rulebase_set": [
                         {
@@ -412,6 +424,10 @@
                         ]
                     },
                     "server_config": {
+                        "zone_name": "tempZone2",
+                        "zone_user": "rods",
+                        "zone_port": 1247,
+                        "zone_auth_scheme": "native",
                         "icat_host": "localhost",
                         "re_rulebase_set": [
                             {

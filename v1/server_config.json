@@ -54,7 +54,9 @@
                 },
                 "required": ["zone_name","zone_id","negotiation_key"]
             }
-        }
+        },
+        "control_plane_port": {"type": "integer"},
+        "control_plane_key": {"type": "string"}
     },
     "required": ["icat_host","re_rulebase_set","re_function_name_mapping_set","re_data_variable_mapping_set","run_server_as_root","default_dir_mode","default_file_mode","default_hash_scheme","zone_id","negotiation_key","match_hash_policy","environment_variables","federation","zone_name","zone_user","zone_port","zone_auth_scheme"]
 }
