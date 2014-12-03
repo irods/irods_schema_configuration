@@ -1,0 +1,15 @@
+{
+    "id": "grid_status",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "hosts": {
+            "type": "array",
+            "items": {
+                "$ref": "server_status"
+            }
+        }
+    },
+    "required": ["hosts"]
+}
+
