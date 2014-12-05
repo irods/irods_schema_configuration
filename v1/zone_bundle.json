@@ -2,7 +2,7 @@
     "id": "zone_bundle",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
-    "description": "Schema for an iRODS grid bundle (possibly featuring Federation)",
+    "description": "Schema for an iRODS zone bundle (possibly featuring Federation)",
     "properties": {
         "schema_version": {"type": "string"},
         "zones": {
