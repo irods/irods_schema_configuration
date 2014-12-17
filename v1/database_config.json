@@ -1,0 +1,10 @@
+{
+    "id": "database_config",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "db_username": {"type": "string"},
+        "db_password": {"type": "string"}
+    },
+    "required": ["db_username","db_password"]
+}

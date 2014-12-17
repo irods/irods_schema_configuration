@@ -1,0 +1,28 @@
+{
+    "id": "grid_bundle",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "description": "Schema for an iRODS grid bundle (possibly featuring Federation)",
+    "properties": {
+        "schema_version": {"type": "string"},
+        "grids": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "icat_server": {
+                        "$ref": "icat_server"
+                    },
+                    "resource_servers": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "resource_server"
+                        }
+                    }
+                },
+                "required": ["icat_server", "resource_servers"]
+            }
+        }
+    },
+    "required": ["schema_version", "grids"]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "resource_server",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "commit_id": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "os": {"type": "string"},
+        "resources": {
+            "type": "array",
+            "items": {
+                "$ref": "resource"
+            }
+        },
+        "configuration_directory": {
+            "$ref": "configuration_directory"
+        },
+        "server_config": {
+            "$ref": "server_config"
+        },
+        "service_account_environment": {
+            "$ref": "service_account_environment"
+        },
+        "plugins": {
+            "type": "array",
+            "items": {
+                "$ref": "plugin"
+            }
+        }
+    },
+    "required": ["commit_id","os","resources","configuration_directory","server_config","service_account_environment","plugins"]
+}

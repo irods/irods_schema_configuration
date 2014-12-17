@@ -1,0 +1,46 @@
+{
+    "id": "server_config",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "icat_host": {"type": "string"},
+        "re_rulebase_set": {
+            "type": "array",
+            "items": {
+                "$ref": "filename"
+            }
+        },
+        "re_function_name_mapping_set": {
+            "type": "array",
+            "items": {
+                "$ref": "filename"
+            }
+        },
+        "re_data_variable_mapping_set": {
+            "type": "array",
+            "items": {
+                "$ref": "filename"
+            }
+        },
+        "run_server_as_root": {"type": "string"},
+        "default_dir_mode": {"type": "string"},
+        "default_file_mode": {"type": "string"},
+        "default_hash_scheme": {"type": "string"},
+        "zone_id": {"type": "string"},
+        "negotiation_key": {"type": "string"},
+        "match_hash_policy": {"type": "string"},
+        "catalog_database_type": {"type": "string"},
+        "federation": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "zone_name": {"type": "string"},
+                    "zone_id": {"type": "string"},
+                    "negotiation_key": {"type": "string"}
+                }
+            }
+        }
+    },
+    "required": ["icat_host","re_rulebase_set","re_function_name_mapping_set","re_data_variable_mapping_set","run_server_as_root","default_dir_mode","default_file_mode","default_hash_scheme","zone_id","negotiation_key","match_hash_policy","catalog_database_type","federation"]
+}

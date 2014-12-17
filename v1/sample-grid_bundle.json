@@ -1,0 +1,380 @@
+{
+    "schema_version": "http://irods.github.io/schemas/v1/grid_bundle.json",
+    "grids": [
+        {
+            "icat_server": {
+                "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0ad37",
+                "os": "centos6",
+                "database_type": "postgres",
+                "database_config": {
+                    "db_username": "irods",
+                    "db_password": "ncy"
+                },
+                "resources": [
+                    {
+                        "name": "",
+                        "type": "",
+                        "host": "",
+                        "vault_path": "",
+                        "context_string": "",
+                        "parent_resource": "",
+                        "parent_resource_context_string": "",
+                        "free_space": "",
+                        "status": "up"
+                    }
+                ],
+                "configuration_directory": {
+                    "path": "/etc/irods",
+                    "files": [
+                        {
+                            "name": "thefilename.ext",
+                            "contents": "base64EncodingOfContents"
+                        }
+                    ]
+                },
+                "plugins": [
+                    {
+                        "name": "",
+                        "type": "",
+                        "version": "",
+                        "checksum_sha256": ""
+                    }
+                ],
+                "server_config": {
+                    "icat_host": "localhost",
+                    "re_rulebase_set": [
+                        {
+                            "filename": "core.re"
+                        }
+                    ],
+                    "re_function_name_mapping_set": [
+                        {
+                            "filename": "core.fnm"
+                        }
+                    ],
+                    "re_data_variable_mapping_set": [
+                        {
+                            "filename": "core.dvm"
+                        }
+                    ],
+                    "run_server_as_root": "false",
+                    "default_dir_mode": "0700",
+                    "default_file_mode": "0600",
+                    "default_hash_scheme": "SHA256",
+                    "zone_id": "TEMP_LOCAL_ZONE_SID",
+                    "negotiation_key": "temp_32_byte_key_for_agent__conn",
+                    "match_hash_policy": "strict",
+                    "catalog_database_type": "postgres",
+                    "federation": [
+                        {
+                            "zone_name": "",
+                            "zone_id": "",
+                            "negotiation_key": ""
+                        },
+                        {
+                            "zone_name": "",
+                            "zone_id": "",
+                            "negotiation_key": ""
+                        }
+                    ]
+                },
+                "service_account_environment": {
+                    "irods_host": "",
+                    "irods_port": 1247,
+                    "irods_default_resource": "",
+                    "irods_home": "",
+                    "irods_cwd": "",
+                    "irods_user_name": "",
+                    "irods_zone": "",
+                    "irods_client_server_negotiation": "request_server_negotiation",
+                    "irods_client_server_policy": "CS_NEG_REFUSE",
+                    "irods_encryption_key_size": "32",
+                    "irods_encryption_salt_size": "8",
+                    "irods_encryption_num_hash_rounds": "16",
+                    "irods_encryption_algorithm": "AES-256-CBC",
+                    "irods_default_hash_scheme": "SHA256",
+                    "irods_match_hash_policy": "strict"
+                }
+            }, 
+            "resource_servers": [
+                {
+                    "commit_id": "d336c42ac8addd353cce2ba0e268b86443b0aa37",
+                    "os": "centos6",
+                    "resources": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "host": "",
+                            "vault_path": "",
+                            "context_string": "",
+                            "parent_resource": "",
+                            "parent_resource_context_string": "",
+                            "free_space": "",
+                            "status": "down"
+                        }
+                    ],
+                    "configuration_directory": {
+                        "path": "/etc/irods",
+                        "files": [
+                            {
+                                "name": "thefilename.ext",
+                                "contents": "base64EncodingOfContents"
+                            }
+                        ]
+                    },
+                    "server_config": {
+                        "icat_host": "localhost",
+                        "re_rulebase_set": [
+                            {
+                                "filename": "core.re"
+                            }
+                        ],
+                        "re_function_name_mapping_set": [
+                            {
+                                "filename": "core.fnm"
+                            }
+                        ],
+                        "re_data_variable_mapping_set": [
+                            {
+                                "filename": "core.dvm"
+                            }
+                        ],
+                        "run_server_as_root": "false",
+                        "default_dir_mode": "0700",
+                        "default_file_mode": "0600",
+                        "default_hash_scheme": "SHA256",
+                        "zone_id": "TEMP_LOCAL_ZONE_SID",
+                        "negotiation_key": "temp_32_byte_key_for_agent__conn",
+                        "match_hash_policy": "strict",
+                        "catalog_database_type": "postgres",
+                        "federation": [
+                            {
+                                "zone_name": "",
+                                "zone_id": "",
+                                "negotiation_key": ""
+                            },
+                            {
+                                "zone_name": "",
+                                "zone_id": "",
+                                "negotiation_key": ""
+                            }
+                        ]
+                    },
+                    "plugins": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "version": "",
+                            "checksum_sha256": ""
+                        }
+                    ],
+                    "service_account_environment": {
+                        "irods_host": "",
+                        "irods_port": 1247,
+                        "irods_default_resource": "",
+                        "irods_home": "",
+                        "irods_cwd": "",
+                        "irods_user_name": "",
+                        "irods_zone": "",
+                        "irods_client_server_negotiation": "request_server_negotiation",
+                        "irods_client_server_policy": "CS_NEG_REFUSE",
+                        "irods_encryption_key_size": "32",
+                        "irods_encryption_salt_size": "8",
+                        "irods_encryption_num_hash_rounds": "16",
+                        "irods_encryption_algorithm": "AES-256-CBC",
+                        "irods_default_hash_scheme": "SHA256",
+                        "irods_match_hash_policy": "strict"
+                    }
+                }
+            ]
+        }, 
+        {
+            "icat_server": {
+                "commit_id": "d336c42ac8a13d353cce2ba0e268b86443b0a7b7",
+                "os": "ubuntu",
+                "database_type": "oracle",
+                "database_config": {
+                    "db_username": "irods",
+                    "db_password": "ncy"
+                },
+                "resources": [
+                    {
+                        "name": "",
+                        "type": "",
+                        "host": "",
+                        "vault_path": "",
+                        "context_string": "",
+                        "parent_resource": "",
+                        "parent_resource_context_string": "",
+                        "free_space": "",
+                        "status": "up"
+                    }
+                ],
+                "configuration_directory": {
+                    "path": "/etc/irods",
+                    "files": [
+                        {
+                            "name": "thefilename.ext",
+                            "contents": "base64EncodingOfContents"
+                        }
+                    ]
+                },
+                "plugins": [
+                    {
+                        "name": "",
+                        "type": "",
+                        "version": "",
+                        "checksum_sha256": ""
+                    }
+                ],
+                "server_config": {
+                    "icat_host": "localhost",
+                    "re_rulebase_set": [
+                        {
+                            "filename": "core.re"
+                        }
+                    ],
+                    "re_function_name_mapping_set": [
+                        {
+                            "filename": "core.fnm"
+                        }
+                    ],
+                    "re_data_variable_mapping_set": [
+                        {
+                            "filename": "core.dvm"
+                        }
+                    ],
+                    "run_server_as_root": "false",
+                    "default_dir_mode": "0700",
+                    "default_file_mode": "0600",
+                    "default_hash_scheme": "SHA256",
+                    "zone_id": "TEMP_LOCAL_ZONE_SID",
+                    "negotiation_key": "temp_32_byte_key_for_agent__conn",
+                    "match_hash_policy": "strict",
+                    "catalog_database_type": "postgres",
+                    "federation": [
+                        {
+                            "zone_name": "",
+                            "zone_id": "",
+                            "negotiation_key": ""
+                        },
+                        {
+                            "zone_name": "",
+                            "zone_id": "",
+                            "negotiation_key": ""
+                        }
+                    ]
+                },
+                "service_account_environment": {
+                    "irods_host": "",
+                    "irods_port": 1247,
+                    "irods_default_resource": "",
+                    "irods_home": "",
+                    "irods_cwd": "",
+                    "irods_user_name": "",
+                    "irods_zone": "",
+                    "irods_client_server_negotiation": "request_server_negotiation",
+                    "irods_client_server_policy": "CS_NEG_REFUSE",
+                    "irods_encryption_key_size": "32",
+                    "irods_encryption_salt_size": "8",
+                    "irods_encryption_num_hash_rounds": "16",
+                    "irods_encryption_algorithm": "AES-256-CBC",
+                    "irods_default_hash_scheme": "SHA256",
+                    "irods_match_hash_policy": "strict"
+                }
+            },
+            "resource_servers": [
+                {
+                    "commit_id": "d336c42ac8a13d353cce2ba0e268b86443b0aa37",
+                    "os": "centos6",
+                    "resources": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "host": "",
+                            "vault_path": "",
+                            "context_string": "",
+                            "parent_resource": "",
+                            "parent_resource_context_string": "",
+                            "free_space": "",
+                            "status": "down"
+                        }
+                    ],
+                    "configuration_directory": {
+                        "path": "/etc/irods",
+                        "files": [
+                            {
+                                "name": "thefilename.ext",
+                                "contents": "base64EncodingOfContents"
+                            }
+                        ]
+                    },
+                    "server_config": {
+                        "icat_host": "localhost",
+                        "re_rulebase_set": [
+                            {
+                                "filename": "core.re"
+                            }
+                        ],
+                        "re_function_name_mapping_set": [
+                            {
+                                "filename": "core.fnm"
+                            }
+                        ],
+                        "re_data_variable_mapping_set": [
+                            {
+                                "filename": "core.dvm"
+                            }
+                        ],
+                        "run_server_as_root": "false",
+                        "default_dir_mode": "0700",
+                        "default_file_mode": "0600",
+                        "default_hash_scheme": "SHA256",
+                        "zone_id": "TEMP_LOCAL_ZONE_SID",
+                        "negotiation_key": "temp_32_byte_key_for_agent__conn",
+                        "match_hash_policy": "strict",
+                        "catalog_database_type": "postgres",
+                        "federation": [
+                            {
+                                "zone_name": "",
+                                "zone_id": "",
+                                "negotiation_key": ""
+                            },
+                            {
+                                "zone_name": "",
+                                "zone_id": "",
+                                "negotiation_key": ""
+                            }
+                        ]
+                    },
+                    "plugins": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "version": "",
+                            "checksum_sha256": ""
+                        }
+                    ],
+                    "service_account_environment": {
+                        "irods_host": "",
+                        "irods_port": 1247,
+                        "irods_default_resource": "",
+                        "irods_home": "",
+                        "irods_cwd": "",
+                        "irods_user_name": "",
+                        "irods_zone": "",
+                        "irods_client_server_negotiation": "request_server_negotiation",
+                        "irods_client_server_policy": "CS_NEG_REFUSE",
+                        "irods_encryption_key_size": "32",
+                        "irods_encryption_salt_size": "8",
+                        "irods_encryption_num_hash_rounds": "16",
+                        "irods_encryption_algorithm": "AES-256-CBC",
+                        "irods_default_hash_scheme": "SHA256",
+                        "irods_match_hash_policy": "strict"
+                    }
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,9 @@
+{
+    "id": "filename",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "filename": {"type": "string"}
+    },
+    "required": ["filename"]
+}
