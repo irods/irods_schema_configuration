@@ -37,12 +37,9 @@
                 ],
                 "configuration_directory": {
                     "path": "/etc/irods",
-                    "files": [
-                        {
-                            "name": "thefilename.ext",
-                            "contents": "base64EncodingOfContents"
-                        }
-                    ]
+                    "files": {
+                        "thefilename.ext": "base64EncodingOfContents"
+                    }
                 },
                 "plugins": [
                     {
@@ -117,7 +114,7 @@
                     "irods_default_hash_scheme": "SHA256",
                     "irods_match_hash_policy": "strict"
                 }
-            }, 
+            },
             "resource_servers": [
                 {
                     "host_system_information": {
@@ -167,12 +164,9 @@
                     ],
                     "configuration_directory": {
                         "path": "/etc/irods",
-                        "files": [
-                            {
-                                "name": "thefilename.ext",
-                                "contents": "base64EncodingOfContents"
-                            }
-                        ]
+                        "files": {
+                            "thefilename.ext": "base64EncodingOfContents"
+                        }
                     },
                     "server_config": {
                         "zone_name": "tempZone",
@@ -249,7 +243,7 @@
                     }
                 }
             ]
-        }, 
+        },
         {
             "icat_server": {
                 "host_system_information": {
@@ -286,12 +280,9 @@
                 ],
                 "configuration_directory": {
                     "path": "/etc/irods",
-                    "files": [
-                        {
-                            "name": "thefilename.ext",
-                            "contents": "base64EncodingOfContents"
-                        }
-                    ]
+                    "files": {
+                        "thefilename.ext": "base64EncodingOfContents"
+                    }
                 },
                 "plugins": [
                     {
@@ -416,12 +407,9 @@
                     ],
                     "configuration_directory": {
                         "path": "/etc/irods",
-                        "files": [
-                            {
-                                "name": "thefilename.ext",
-                                "contents": "base64EncodingOfContents"
-                            }
-                        ]
+                        "files": {
+                            "thefilename.ext": "base64EncodingOfContents"
+                        }
                     },
                     "server_config": {
                         "zone_name": "tempZone2",
@@ -510,4 +498,3 @@
         }
     ]
 }
-
