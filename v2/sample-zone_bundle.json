@@ -70,7 +70,6 @@
                             "filename": "core.dvm"
                         }
                     ],
-                    "run_server_as_root": "false",
                     "default_dir_mode": "0700",
                     "default_file_mode": "0600",
                     "default_hash_scheme": "SHA256",
@@ -189,7 +188,6 @@
                                 "filename": "core.dvm"
                             }
                         ],
-                        "run_server_as_root": "false",
                         "default_dir_mode": "0700",
                         "default_file_mode": "0600",
                         "default_hash_scheme": "SHA256",
@@ -313,7 +311,6 @@
                             "filename": "core.dvm"
                         }
                     ],
-                    "run_server_as_root": "false",
                     "default_dir_mode": "0700",
                     "default_file_mode": "0600",
                     "default_hash_scheme": "SHA256",
@@ -432,7 +429,6 @@
                                 "filename": "core.dvm"
                             }
                         ],
-                        "run_server_as_root": "false",
                         "default_dir_mode": "0700",
                         "default_file_mode": "0600",
                         "default_hash_scheme": "SHA256",
