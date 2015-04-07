@@ -1,5 +1,5 @@
 {
-    "id": "icat_server",
+    "id": "https://schemas.irods.org/configuration/v2/icat_server#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "allOf": [

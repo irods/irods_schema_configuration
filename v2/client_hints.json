@@ -1,5 +1,5 @@
 {
-    "id": "client_hints",
+    "id": "https://schemas.irods.org/configuration/v2/client_hints#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {

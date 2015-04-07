@@ -1,5 +1,5 @@
 {
-    "id": "server_config",
+    "id": "https://schemas.irods.org/configuration/v2/server_config#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
