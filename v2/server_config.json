@@ -25,6 +25,8 @@
         "zone_name": {"type": "string"},
         "zone_user": {"type": "string"},
         "zone_port": {"type": "integer"},
+        "server_port_range_start": {"type": "integer"},
+        "server_port_range_end": {"type": "integer"},
         "zone_auth_scheme" : {"type": "string"},
         "xmsg_port": {"type": "integer"},
         "kerberos_name": {"type": "string"},
@@ -57,5 +59,5 @@
         "control_plane_port": {"type": "integer"},
         "control_plane_key": {"type": "string"}
     },
-    "required": ["icat_host","re_rulebase_set","re_function_name_mapping_set","re_data_variable_mapping_set","default_dir_mode","default_file_mode","default_hash_scheme","zone_id","negotiation_key","match_hash_policy","environment_variables","federation","zone_name","zone_user","zone_port","zone_auth_scheme"]
+    "required": ["icat_host","re_rulebase_set","re_function_name_mapping_set","re_data_variable_mapping_set","default_dir_mode","default_file_mode","default_hash_scheme","zone_id","negotiation_key","match_hash_policy","environment_variables","federation","zone_name","zone_user","zone_port","server_port_range_start","server_port_range_end","zone_auth_scheme"]
 }
