@@ -5,7 +5,11 @@
     "properties": {
         "catalog_database_type": {"enum": ["postgres","mysql","oracle"]},
         "db_username": {"type": "string"},
-        "db_password": {"type": "string"}
+        "db_password": {"type": "string"},
+        "db_odbc_type": {"type": "string"},
+        "db_host": {"type": "string"},
+        "db_port": {"type": "integer"},
+        "db_name": {"type": "string"}
     },
-    "required": ["catalog_database_type","db_username","db_password"]
+    "required": ["catalog_database_type","db_username","db_password","db_odbc_type","db_host","db_port","db_name"]
 }
