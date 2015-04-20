@@ -37,7 +37,7 @@
         "default_dir_mode": {"type": "string"},
         "default_file_mode": {"type": "string"},
         "default_hash_scheme": {"type": "string"},
-        "zone_id": {"type": "string"},
+        "zone_key": {"type": "string"},
         "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
         "match_hash_policy": {"type": "string"},
         "environment_variables": {
@@ -50,10 +50,10 @@
                 "type": "object",
                 "properties": {
                     "zone_name": {"type": "string"},
-                    "zone_id": {"type": "string"},
+                    "zone_key": {"type": "string"},
                     "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32}
                 },
-                "required": ["zone_name","zone_id","negotiation_key"]
+                "required": ["zone_name","zone_key","negotiation_key"]
             }
         },
         "server_control_plane_port": {"type": "integer"},
@@ -67,7 +67,7 @@
         "default_dir_mode",
         "default_file_mode",
         "default_hash_scheme",
-        "zone_id",
+        "zone_key",
         "negotiation_key",
         "match_hash_policy",
         "environment_variables",
