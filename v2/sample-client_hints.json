@@ -15,5 +15,5 @@
         "DataObjInCollReCur"
     ],
     "hash_scheme": "sha256",
-    "match_hash_policy": "not_strict"
+    "match_hash_policy": "compatible"
 }
