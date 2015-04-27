@@ -1,5 +1,5 @@
 {
-    "id": "http://schemas.irods.org/configuration/v2/server_config#",
+    "id": "https://schemas.irods.org/configuration/v2/server_config.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
@@ -7,19 +7,19 @@
         "re_rulebase_set": {
             "type": "array",
             "items": {
-                "$ref": "filename"
+                "$ref": "filename.json"
             }
         },
         "re_function_name_mapping_set": {
             "type": "array",
             "items": {
-                "$ref": "filename"
+                "$ref": "filename.json"
             }
         },
         "re_data_variable_mapping_set": {
             "type": "array",
             "items": {
-                "$ref": "filename"
+                "$ref": "filename.json"
             }
         },
         "zone_name": {"type": "string"},

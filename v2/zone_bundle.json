@@ -1,5 +1,5 @@
 {
-    "id": "http://schemas.irods.org/configuration/v2/zone_bundle#",
+    "id": "https://schemas.irods.org/configuration/v2/zone_bundle.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "description": "Schema for an iRODS zone bundle (possibly featuring Federation)",
@@ -11,12 +11,12 @@
                 "type": "object",
                 "properties": {
                     "icat_server": {
-                        "$ref": "icat_server"
+                        "$ref": "icat_server.json"
                     },
                     "resource_servers": {
                         "type": "array",
                         "items": {
-                            "$ref": "resource_server"
+                            "$ref": "resource_server.json"
                         }
                     }
                 },

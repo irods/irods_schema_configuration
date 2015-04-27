@@ -1,12 +1,12 @@
 {
-    "id": "http://schemas.irods.org/configuration/v2/grid_status#",
+    "id": "https://schemas.irods.org/configuration/v2/grid_status.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
         "hosts": {
             "type": "array",
             "items": {
-                "$ref": "server_status"
+                "$ref": "server_status.json"
             }
         }
     },

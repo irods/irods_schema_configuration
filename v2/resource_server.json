@@ -1,5 +1,5 @@
 {
-    "id": "http://schemas.irods.org/configuration/v2/resource_server#",
+    "id": "https://schemas.irods.org/configuration/v2/resource_server.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
@@ -13,35 +13,45 @@
             "required": ["uname","os_distribution_name","os_distribution_version"]
         },
         "version": {
-            "$ref": "version"
+            "$ref": "version.json"
         },
         "resources": {
             "type": "array",
             "items": {
-                "$ref": "resource"
+                "$ref": "resource.json"
             }
         },
         "configuration_directory": {
             "$ref": "configuration_directory"
         },
         "server_config": {
-            "$ref": "server_config"
+            "$ref": "server_config.json"
         },
         "hosts_config": {
-            "$ref": "hosts_config"
+            "$ref": "hosts_config.json"
         },
         "host_access_control_config": {
-            "$ref": "host_access_control_config"
+            "$ref": "host_access_control_config.json"
         },
         "service_account_environment": {
-            "$ref": "service_account_environment"
+            "$ref": "service_account_environment.json"
         },
         "plugins": {
             "type": "array",
             "items": {
-                "$ref": "plugin"
+                "$ref": "plugin.json"
             }
         }
     },
-    "required": ["host_system_information","version","resources","configuration_directory","server_config","hosts_config","host_access_control_config","service_account_environment","plugins"]
+    "required": [
+        "host_system_information",
+        "version",
+        "resources",
+        "configuration_directory",
+        "server_config",
+        "hosts_config",
+        "host_access_control_config",
+        "service_account_environment",
+        "plugins"
+    ]
 }

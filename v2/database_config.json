@@ -1,5 +1,5 @@
 {
-    "id": "http://schemas.irods.org/configuration/v2/database_config#",
+    "id": "https://schemas.irods.org/configuration/v2/database_config.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
@@ -11,5 +11,13 @@
         "db_port": {"type": "integer"},
         "db_name": {"type": "string"}
     },
-    "required": ["catalog_database_type","db_username","db_password","db_odbc_type","db_host","db_port","db_name"]
+    "required": [
+        "catalog_database_type",
+        "db_username",
+        "db_password",
+        "db_odbc_type",
+        "db_host",
+        "db_port",
+        "db_name"
+    ]
 }

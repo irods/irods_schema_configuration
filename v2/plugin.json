@@ -1,5 +1,5 @@
 {
-    "id": "http://schemas.irods.org/configuration/v2/plugin#",
+    "id": "https://schemas.irods.org/configuration/v2/plugin.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
@@ -8,5 +8,10 @@
         "version": {"type": "string"},
         "checksum_sha256": {"type": "string"}
     },
-    "required": ["name","type","version","checksum_sha256"]
+    "required": [
+        "name",
+        "type",
+        "version",
+        "checksum_sha256"
+    ]
 }
