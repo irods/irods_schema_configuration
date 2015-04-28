@@ -22,7 +22,7 @@
             }
         },
         "configuration_directory": {
-            "$ref": "configuration_directory"
+            "$ref": "configuration_directory.json"
         },
         "server_config": {
             "$ref": "server_config.json"
