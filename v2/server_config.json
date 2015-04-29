@@ -57,7 +57,8 @@
             }
         },
         "server_control_plane_port": {"type": "integer"},
-        "server_control_plane_key": {"type": "string"}
+        "server_control_plane_key": {"type": "string"},
+        "schema_validation_base_uri": {"type": "string"}
     },
     "required": [
         "icat_host",
@@ -79,6 +80,7 @@
         "server_port_range_end",
         "zone_auth_scheme",
         "server_control_plane_port",
-        "server_control_plane_key"
+        "server_control_plane_key",
+        "schema_validation_base_uri"
     ]
 }
