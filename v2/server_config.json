@@ -31,7 +31,7 @@
         "xmsg_port": {"type": "integer"},
         "kerberos_name": {"type": "string"},
         "pam_password_length": {"type": "integer"},
-        "pam_no_extend": {"enum": ["true","false"]},
+        "pam_no_extend": {"type": "boolean"},
         "pam_password_min_time": {"type": "integer"},
         "pam_password_max_time": {"type": "integer"},
         "default_dir_mode": {"type": "string"},
