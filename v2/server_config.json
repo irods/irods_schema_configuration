@@ -57,8 +57,11 @@
                 "required": ["icat_host","zone_name","zone_key","negotiation_key"]
             }
         },
+        "server_control_plane_encryption_algorithm": {"type": "string"},
+        "server_control_plane_encryption_num_hash_rounds": {"type": "integer"},
+        "server_control_plane_key": {"type": "string", "minLength": 32, "maxLength": 32},
         "server_control_plane_port": {"type": "integer"},
-        "server_control_plane_key": {"type": "string"},
+        "server_control_plane_timeout_milliseconds": {"type": "integer"},
         "schema_validation_base_uri": {"type": "string"}
     },
     "required": [
@@ -80,8 +83,11 @@
         "server_port_range_start",
         "server_port_range_end",
         "zone_auth_scheme",
-        "server_control_plane_port",
+        "server_control_plane_encryption_algorithm",
+        "server_control_plane_encryption_num_hash_rounds",
         "server_control_plane_key",
+        "server_control_plane_port",
+        "server_control_plane_timeout_milliseconds",
         "schema_validation_base_uri"
     ]
 }
