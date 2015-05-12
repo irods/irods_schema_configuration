@@ -49,11 +49,12 @@
             "items": {
                 "type": "object",
                 "properties": {
+                    "icat_host": {"type": "string"},
                     "zone_name": {"type": "string"},
                     "zone_key": {"type": "string"},
                     "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32}
                 },
-                "required": ["zone_name","zone_key","negotiation_key"]
+                "required": ["icat_host","zone_name","zone_key","negotiation_key"]
             }
         },
         "server_control_plane_port": {"type": "integer"},
