@@ -17,8 +17,8 @@
                 "properties": {
                     "icat_host": {"type": "string"},
                     "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
-                    "zone_key": {"type": "string", "pattern": "^[A-Za-z0-9_]+$"},
-                    "zone_name": {"type": "string", "pattern": "^[A-Za-z0-9_\\.]+$"}
+                    "zone_key": {"type": "string", "pattern": "^[A-Za-z0-9_]+$", "maxLength": 49},
+                    "zone_name": {"type": "string", "pattern": "^[A-Za-z0-9_\\.]+$", "maxLength": 63}
                 },
                 "required": ["icat_host","negotiation_key","zone_key","zone_name"]
             }
@@ -59,8 +59,8 @@
         "server_port_range_start": {"type": "integer"},
         "xmsg_port": {"type": "integer"},
         "zone_auth_scheme" : {"type": "string"},
-        "zone_key": {"type": "string", "pattern": "^[A-Za-z0-9_]+$"},
-        "zone_name": {"type": "string", "pattern": "^[A-Za-z0-9_\\.]+$"},
+        "zone_key": {"type": "string", "pattern": "^[A-Za-z0-9_]+$", "maxLength": 49},
+        "zone_name": {"type": "string", "pattern": "^[A-Za-z0-9_\\.]+$", "maxLength": 63},
         "zone_port": {"type": "integer"},
         "zone_user": {"type": "string"}
     },
