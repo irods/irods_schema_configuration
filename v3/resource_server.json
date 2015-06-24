@@ -13,7 +13,7 @@
             "required": ["uname","os_distribution_name","os_distribution_version"]
         },
         "version": {
-            "$ref": "version.json"
+            "$ref": "VERSION.json"
         },
         "resources": {
             "type": "array",

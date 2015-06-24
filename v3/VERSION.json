@@ -1,5 +1,5 @@
 {
-    "id": "https://schemas.irods.org/configuration/v3/version.json#",
+    "id": "https://schemas.irods.org/configuration/v3/VERSION.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
@@ -12,7 +12,7 @@
         "compiler_version": {"type": "string"},
         "compile_time": {"type": "string", "format": "date-time"},
         "previous_version": {
-            "$ref": "version.json"
+            "$ref": "VERSION.json"
         }
     },
     "required": [
