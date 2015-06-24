@@ -1,13 +1,13 @@
 {
-    "id": "https://schemas.irods.org/configuration/v2/client_hints.json#",
+    "id": "https://schemas.irods.org/configuration/v3/client_hints.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
         "strict_acls": {"type": "string", "enum": ["on", "off"]},
         "hash_scheme": {"type": "string", "enum": ["md5", "sha256"]},
         "match_hash_policy": {"type": "string", "enum": ["strict", "compatible"]},
-        "specific_queries": { 
-            "type": "array", 
+        "specific_queries": {
+            "type": "array",
             "items": {
                 "type": "string"
             }

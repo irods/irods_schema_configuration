@@ -1,5 +1,5 @@
 {
-    "id": "https://schemas.irods.org/configuration/v2/server_status.json#",
+    "id": "https://schemas.irods.org/configuration/v3/server_status.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
@@ -22,4 +22,3 @@
     },
     "required": ["hostname","irods_server_pid","re_server_pid","xmsg_server_pid","status","agents"]
 }
-

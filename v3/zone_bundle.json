@@ -1,5 +1,5 @@
 {
-    "id": "https://schemas.irods.org/configuration/v2/zone_bundle.json#",
+    "id": "https://schemas.irods.org/configuration/v3/zone_bundle.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "description": "Schema for an iRODS zone bundle (possibly featuring Federation)",

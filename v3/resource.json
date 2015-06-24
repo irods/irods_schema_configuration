@@ -1,5 +1,5 @@
 {
-    "id": "https://schemas.irods.org/configuration/v2/resource.json#",
+    "id": "https://schemas.irods.org/configuration/v3/resource.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
