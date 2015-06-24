@@ -34,7 +34,7 @@
             "$ref": "host_access_control_config.json"
         },
         "service_account_environment": {
-            "$ref": "service_account_environment.json"
+            "$ref": "irods_environment.json"
         },
         "plugins": {
             "type": "array",
