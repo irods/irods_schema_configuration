@@ -19,6 +19,8 @@ Make sure that the Linux account running iRODS has read access to the deployed s
 
 Note that the above steps will only create local instances of the schemas for `v2`. To create local instances of other versions, checkout the desired version's git branch (e.g. `v3`).
 
+To determine which version of the schemas is used by an iRODS installation, check the `configuration_schema_version` entry of `/var/lib/irods/VERSION.json`.
+
 #### `deploy_schemas_locally.py` usage:
 
 ```
