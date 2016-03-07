@@ -3,6 +3,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
+        "catalog_service_role": {"type": "string"},
         "default_dir_mode": {"type": "string"},
         "default_file_mode": {"type": "string"},
         "default_hash_scheme": {"type": "string"},
@@ -54,6 +55,7 @@
         "zone_user": {"type": "string"}
     },
     "required": [
+        "catalog_service_role",
         "default_dir_mode",
         "default_file_mode",
         "default_hash_scheme",
