@@ -31,23 +31,12 @@
         "pam_password_length": {"type": "integer"},
         "pam_password_max_time": {"type": "integer"},
         "pam_password_min_time": {"type": "integer"},
-        "re_data_variable_mapping_set": {
+        "rule_engines": {
             "type": "array",
             "items": {
-                "$ref": "filename.json"
-            }
-        },
-        "re_function_name_mapping_set": {
-            "type": "array",
-            "items": {
-                "$ref": "filename.json"
-            }
-        },
-        "re_rulebase_set": {
-            "type": "array",
-            "items": {
-                "$ref": "filename.json"
-            }
+                "$ref": "rule_engine.json"
+            },
+            "minItems": 1,
         },
         "schema_validation_base_uri": {"type": "string"},
         "server_control_plane_encryption_algorithm": {"type": "string"},
@@ -73,9 +62,7 @@
         "icat_host",
         "match_hash_policy",
         "negotiation_key",
-        "re_data_variable_mapping_set",
-        "re_function_name_mapping_set",
-        "re_rulebase_set",
+        "rule_engines",
         "schema_validation_base_uri",
         "server_control_plane_encryption_algorithm",
         "server_control_plane_encryption_num_hash_rounds",
