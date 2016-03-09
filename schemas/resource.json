@@ -21,7 +21,6 @@
         "context_string",
         "parent_resource",
         "free_space",
-        "status",
-        "object_count"
+        "status"
     ]
 }
