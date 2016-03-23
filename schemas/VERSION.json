@@ -20,7 +20,6 @@
         "catalog_schema_version",
         "configuration_schema_version",
         "commit_id",
-        "installation_time",
         "build_system_information",
         "compiler_version",
         "compile_time"
