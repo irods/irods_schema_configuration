@@ -38,7 +38,7 @@
             "items": {
                 "$ref": "rule_engine.json"
             },
-            "minItems": 1,
+            "minItems": 1
         },
         "schema_validation_base_uri": {"type": "string"},
         "server_control_plane_encryption_algorithm": {"type": "string"},
