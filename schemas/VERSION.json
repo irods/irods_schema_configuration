@@ -21,7 +21,6 @@
         "configuration_schema_version",
         "commit_id",
         "build_system_information",
-        "compiler_version",
-        "compile_time"
+        "compiler_version"
     ]
 }
