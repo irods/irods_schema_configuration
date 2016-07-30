@@ -4,8 +4,6 @@
     "type": "object",
     "properties": {
         "catalog_service_role": {"type": "string"},
-        "default_dir_mode": {"type": "string"},
-        "default_file_mode": {"type": "string"},
         "default_hash_scheme": {"type": "string"},
         "environment_variables": {
             "type": "object",
@@ -26,19 +24,35 @@
             }
         },
         "icat_host": {"type": "string"},
-        "kerberos_name": {"type": "string"},
         "match_hash_policy": {"type": "string"},
         "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
-        "pam_no_extend": {"type": "boolean"},
-        "pam_password_length": {"type": "integer"},
-        "pam_password_max_time": {"type": "integer"},
-        "pam_password_min_time": {"type": "integer"},
-        "rule_engines": {
-            "type": "array",
-            "items": {
-                "$ref": "rule_engine.json"
+        "plugin_configuration": {
+            "type": "object",
+            "properties": {
+                "authentication": {
+                    "type": "object",
+                    "properties": {}
+                },
+                "database": {
+                    "$ref": "database_config.json"
+                },
+                "network": {
+                    "type": "object",
+                    "properties": {}
+                },
+                "resource": {
+                    "type": "object",
+                    "properties": {}
+                },
+                "rule_engine": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "rule_engine.json"
+                    },
+                    "minItems": 1,
+                }
             },
-            "minItems": 1
+            "required": ["authentication","network","resource","rule_engine"]
         },
         "schema_validation_base_uri": {"type": "string"},
         "server_control_plane_encryption_algorithm": {"type": "string"},
@@ -57,15 +71,13 @@
     },
     "required": [
         "catalog_service_role",
-        "default_dir_mode",
-        "default_file_mode",
         "default_hash_scheme",
         "environment_variables",
         "federation",
         "icat_host",
         "match_hash_policy",
         "negotiation_key",
-        "rule_engines",
+        "plugin_configuration",
         "schema_validation_base_uri",
         "server_control_plane_encryption_algorithm",
         "server_control_plane_encryption_num_hash_rounds",
