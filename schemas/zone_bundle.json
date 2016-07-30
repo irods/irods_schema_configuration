@@ -10,17 +10,14 @@
             "items": {
                 "type": "object",
                 "properties": {
-                    "icat_server": {
-                        "$ref": "icat_server.json"
-                    },
-                    "resource_servers": {
+                    "servers": {
                         "type": "array",
                         "items": {
-                            "$ref": "resource_server.json"
+                            "$ref": "server.json"
                         }
                     }
                 },
-                "required": ["icat_server", "resource_servers"]
+                "required": ["servers"]
             }
         }
     },

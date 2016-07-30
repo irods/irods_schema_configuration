@@ -44,7 +44,7 @@
                     "type": "object",
                     "properties": {}
                 },
-                "rule_engine": {
+                "rule_engines": {
                     "type": "array",
                     "items": {
                         "$ref": "rule_engine.json"
@@ -52,7 +52,7 @@
                     "minItems": 1,
                 }
             },
-            "required": ["authentication","network","resource","rule_engine"]
+            "required": ["authentication","network","resource","rule_engines"]
         },
         "schema_validation_base_uri": {"type": "string"},
         "server_control_plane_encryption_algorithm": {"type": "string"},
