@@ -3,17 +3,29 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
+        "configuration_directory": {
+            "$ref": "configuration_directory.json"
+        },
+        "host_access_control_config": {
+            "$ref": "host_access_control_config.json"
+        },
         "host_system_information": {
             "type": "object",
             "properties": {
-                "uname": {"type": "string"},
                 "os_distribution_name": {"type": "string"},
-                "os_distribution_version": {"type": "string"}
+                "os_distribution_version": {"type": "string"},
+                "uname": {"type": "string"}
             },
-            "required": ["uname","os_distribution_name","os_distribution_version"]
+            "required": ["os_distribution_name","os_distribution_version","uname"]
         },
-        "version": {
-            "$ref": "VERSION.json"
+        "hosts_config": {
+            "$ref": "hosts_config.json"
+        },
+        "plugins": {
+            "type": "array",
+            "items": {
+                "$ref": "plugin.json"
+            }
         },
         "resources": {
             "type": "array",
@@ -21,37 +33,25 @@
                 "$ref": "resource.json"
             }
         },
-        "configuration_directory": {
-            "$ref": "configuration_directory.json"
-        },
         "server_config": {
             "$ref": "server_config.json"
-        },
-        "hosts_config": {
-            "$ref": "hosts_config.json"
-        },
-        "host_access_control_config": {
-            "$ref": "host_access_control_config.json"
         },
         "service_account_environment": {
             "$ref": "irods_environment.json"
         },
-        "plugins": {
-            "type": "array",
-            "items": {
-                "$ref": "plugin.json"
-            }
+        "version": {
+            "$ref": "VERSION.json"
         }
     },
     "required": [
-        "host_system_information",
-        "version",
-        "resources",
         "configuration_directory",
-        "server_config",
-        "hosts_config",
         "host_access_control_config",
+        "host_system_information",
+        "hosts_config",
+        "plugins",
+        "resources",
+        "server_config",
         "service_account_environment",
-        "plugins"
+        "version"
     ]
 }

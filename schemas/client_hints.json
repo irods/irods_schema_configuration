@@ -3,7 +3,6 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-        "strict_acls": {"type": "string", "enum": ["on", "off"]},
         "hash_scheme": {"type": "string", "enum": ["md5", "sha256"]},
         "match_hash_policy": {"type": "string", "enum": ["strict", "compatible"]},
         "specific_queries": {
@@ -11,12 +10,13 @@
             "items": {
                 "type": "string"
             }
-        }
+        },
+        "strict_acls": {"type": "string", "enum": ["on", "off"]}
     },
     "required": [
-        "strict_acls",
         "hash_scheme",
         "match_hash_policy",
-        "specific_queries"
+        "specific_queries",
+        "strict_acls"
     ]
 }

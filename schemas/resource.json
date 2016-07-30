@@ -3,24 +3,24 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-        "name": {"type": "string"},
-        "type": {"type": "string"},
-        "host": {"type": "string"},
-        "vault_path": {"type": "string"},
         "context_string": {"type": "string"},
-        "parent_resource": {"type": "string"},
+        "host": {"type": "string"},
         "free_space": {"type": "string"},
+        "name": {"type": "string"},
+        "object_count": {"type": "integer"},
+        "parent_resource": {"type": "string"},
         "status": {"type": "string", "enum": ["up","down"]},
-        "object_count": {"type": "integer"}
+        "type": {"type": "string"},
+        "vault_path": {"type": "string"}
     },
     "required": [
-        "name",
-        "type",
-        "host",
-        "vault_path",
         "context_string",
-        "parent_resource",
+        "host",
         "free_space",
-        "status"
+        "name",
+        "parent_resource",
+        "status",
+        "type",
+        "vault_path"
     ]
 }

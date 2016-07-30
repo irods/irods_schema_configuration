@@ -3,11 +3,6 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-        "hostname": {"type": "string"},
-        "irods_server_pid": {"type": "integer"},
-        "re_server_pid": {"type": "integer"},
-        "xmsg_server_pid": {"type": "integer"},
-        "status": {"type": "string"},
         "agents": {
             "type": "array",
             "items": {
@@ -18,7 +13,12 @@
                 },
                 "required": ["agent_pid","age"]
             }
-        }
+        },
+        "hostname": {"type": "string"},
+        "irods_server_pid": {"type": "integer"},
+        "re_server_pid": {"type": "integer"},
+        "status": {"type": "string"},
+        "xmsg_server_pid": {"type": "integer"}
     },
-    "required": ["hostname","irods_server_pid","re_server_pid","xmsg_server_pid","status","agents"]
+    "required": ["agents","hostname","irods_server_pid","re_server_pid","status","xmsg_server_pid"]
 }
