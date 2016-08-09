@@ -3,6 +3,12 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
+        "catalog_provider_hosts": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 1,
+            "uniqueItems": true
+        },
         "catalog_service_role": {"type": "string"},
         "controlled_user_connection_list": {
             "control_type": {"enum": ["blacklist","whitelist"]},
@@ -26,16 +32,20 @@
             "items": {
                 "type": "object",
                 "properties": {
-                    "icat_host": {"type": "string"},
+                    "catalog_provider_hosts": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "minItems": 1,
+                        "uniqueItems": true
+                    },
                     "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
                     "zone_key": {"type": "string", "pattern": "^[A-Za-z0-9_]+$", "maxLength": 49},
                     "zone_name": {"type": "string", "pattern": "^[A-Za-z0-9_\\.]+$", "maxLength": 63},
                     "zone_port": {"type": "integer"}
                 },
-                "required": ["icat_host","negotiation_key","zone_key","zone_name"]
+                "required": ["catalog_provider_hosts","negotiation_key","zone_key","zone_name"]
             }
         },
-        "icat_host": {"type": "string"},
         "match_hash_policy": {"type": "string"},
         "negotiation_key": {"type": "string", "minLength": 32, "maxLength": 32},
         "plugin_configuration": {
@@ -82,12 +92,12 @@
         "zone_user": {"type": "string"}
     },
     "required": [
+        "catalog_provider_hosts",
         "catalog_service_role",
         "controlled_user_connection_list",
         "default_hash_scheme",
         "environment_variables",
         "federation",
-        "icat_host",
         "match_hash_policy",
         "negotiation_key",
         "plugin_configuration",
