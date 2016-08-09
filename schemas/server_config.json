@@ -4,6 +4,18 @@
     "type": "object",
     "properties": {
         "catalog_service_role": {"type": "string"},
+        "controlled_user_connection_list": {
+            "control_type": {"enum": ["blacklist","whitelist"]},
+            "users": {
+                "type": "array",
+                "items": {"type": "string"},
+                "uniqueItems": true
+            }
+        },
+        "maximum_connections": {
+            "type": "integer",
+            "minimum": 1,
+        },
         "default_hash_scheme": {"type": "string"},
         "environment_variables": {
             "type": "object",
@@ -71,6 +83,7 @@
     },
     "required": [
         "catalog_service_role",
+        "controlled_user_connection_list",
         "default_hash_scheme",
         "environment_variables",
         "federation",
