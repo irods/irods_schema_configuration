@@ -20,7 +20,7 @@
         },
         "maximum_connections": {
             "type": "integer",
-            "minimum": 1,
+            "minimum": 1
         },
         "default_hash_scheme": {"type": "string"},
         "environment_variables": {
@@ -71,7 +71,7 @@
                     "items": {
                         "$ref": "rule_engine.json"
                     },
-                    "minItems": 1,
+                    "minItems": 1
                 }
             },
             "required": ["authentication","network","resource","rule_engines"]
