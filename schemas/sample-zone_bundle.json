@@ -4,32 +4,14 @@
         {
             "icat_server": {
                 "configuration_directory": {
-                    "files": [
-                        {
-                            "contents": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
-                            "name": "/etc/irods/core.dvm"
-                        },
-                        {
-                            "contents": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
-                            "name": "/etc/irods/host_access_control_config.json"
-                        },
-                        {
-                            "contents": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
-                            "name": "/etc/irods/core.fnm"
-                        },
-                        {
-                            "contents": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
-                            "name": "/etc/irods/core.re"
-                        },
-                        {
-                            "contents": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
-                            "name": "/etc/irods/database_config.json"
-                        },
-                        {
-                            "contents": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
-                            "name": "/etc/irods/service_account.config"
-                        }
-                    ],
+                    "files": {
+                        "/etc/irods/core.dvm": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
+                        "/etc/irods/core.fnm": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
+                        "/etc/irods/core.re": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
+                        "/etc/irods/database_config.json": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
+                        "/etc/irods/host_access_control_config.json": "base64encodingIyBEYXRhIFZhcmlhfsYm==",
+                        "/etc/irods/service_account.config": "base64encodingIyBEYXRhIFZhcmlhfsYm=="
+                    },
                     "path": "/etc/irods"
                 },
                 "database_config": {
