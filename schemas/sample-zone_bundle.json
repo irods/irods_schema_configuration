@@ -15,7 +15,6 @@
                     "path": "/etc/irods"
                 },
                 "database_config": {
-                    "catalog_database_type": "postgres",
                     "db_host": "localhost",
                     "db_name": "ICAT",
                     "db_odbc_type": "unix",

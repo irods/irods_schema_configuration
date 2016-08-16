@@ -3,7 +3,6 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-        "catalog_database_type": {"type": "string"},
         "db_host": {"type": "string"},
         "db_name": {"type": "string"},
         "db_odbc_type": {"type": "string"},
@@ -12,7 +11,6 @@
         "db_username": {"type": "string"}
     },
     "required": [
-        "catalog_database_type",
         "db_host",
         "db_name",
         "db_odbc_type",
