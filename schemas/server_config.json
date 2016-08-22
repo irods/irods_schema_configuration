@@ -9,7 +9,7 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "catalog_service_role": {"type": "string"},
+        "catalog_service_role": {"enum": ["consumer","provider"]},
         "controlled_user_connection_list": {
             "control_type": {"enum": ["blacklist","whitelist"]},
             "users": {
