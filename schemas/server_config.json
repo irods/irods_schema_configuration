@@ -22,6 +22,8 @@
             "type": "integer",
             "minimum": 1
         },
+        "default_dir_mode": {"type": "string"},
+        "default_file_mode": {"type": "string"},
         "default_hash_scheme": {"type": "string"},
         "environment_variables": {
             "type": "object",
