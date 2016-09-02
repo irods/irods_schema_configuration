@@ -58,7 +58,10 @@
                     "properties": {}
                 },
                 "database": {
-                    "$ref": "database_config.json"
+                    "type": "object",
+                    "additionalProperties": {"$ref": "database_config.json"},
+                    "maxProperties" : 1,
+                    "minProperties" : 1
                 },
                 "network": {
                     "type": "object",
