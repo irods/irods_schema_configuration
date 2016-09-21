@@ -38,7 +38,7 @@
             "$ref": "server_config.json"
         },
         "service_account_environment": {
-            "$ref": "irods_environment.json"
+            "$ref": "service_account_environment.json"
         },
         "version": {
             "$ref": "VERSION.json"
