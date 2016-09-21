@@ -99,7 +99,6 @@
     "required": [
         "catalog_provider_hosts",
         "catalog_service_role",
-        "controlled_user_connection_list",
         "default_hash_scheme",
         "environment_variables",
         "federation",
