@@ -3,6 +3,16 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
+       "advanced_settings": {
+            "type": "object",
+            "properties": {
+                "transfer_buffer_size_for_parallel_transfer_in_megabytes": {"type": "integer"},
+                "maximum_size_for_single_buffer_in_megabytes": { "type": "integer"},
+                "default_number_of_transfer_threads": { "type": "integer" }
+            },
+            "required": [ "transfer_buffer_size_for_parallel_transfer_in_megabytes", "maximum_size_for_single_buffer_in_megabytes", "default_number_of_transfer_threads" ]
+        },
+
         "catalog_provider_hosts": {
             "type": "array",
             "items": {"type": "string"},
@@ -97,6 +107,7 @@
         "zone_user": {"type": "string"}
     },
     "required": [
+        "advanced_settings",
         "catalog_provider_hosts",
         "catalog_service_role",
         "default_hash_scheme",
