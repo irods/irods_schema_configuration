@@ -82,6 +82,7 @@
             "required": ["authentication","network","resource","rule_engines"]
         },
         "schema_validation_base_uri": {"type": "string"},
+        "schema_version": {"type": "string"},
         "server_control_plane_encryption_algorithm": {"type": "string"},
         "server_control_plane_encryption_num_hash_rounds": {"type": "integer"},
         "server_control_plane_key": {"type": "string", "minLength": 32, "maxLength": 32},
@@ -106,6 +107,7 @@
         "negotiation_key",
         "plugin_configuration",
         "schema_validation_base_uri",
+        "schema_version",
         "server_control_plane_encryption_algorithm",
         "server_control_plane_encryption_num_hash_rounds",
         "server_control_plane_key",
