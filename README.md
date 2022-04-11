@@ -1,4 +1,10 @@
+Note: This repository has been deprecated, archived, and its functionality has been absorbed by the iRODS Server directly.
+
+
+---
+
 #### iRODS schemas for configuration files and grid components.
+
 
 Used by the iRODS server, on startup, to validate its configuration files.
 
